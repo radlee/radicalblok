@@ -63,7 +63,6 @@ function Register() {
             value={user.password}
             onChange={(e) => setUser({ ...user, password: e.target.value })}
           />
-
           <Button
             title="Register"
             onClick={register}
