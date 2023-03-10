@@ -13,6 +13,7 @@ function Register() {
     name: "",
     email: "",
     password: "",
+    profile: ""
   });
 
   const register = async () => {
@@ -20,6 +21,7 @@ function Register() {
       dispatch(ShowLoading());
       const response = await RegisterUser(user);
       if (response.success) {
+        console.log(user)
         toast.success(response.message);
         navigate("/login");
       } else {

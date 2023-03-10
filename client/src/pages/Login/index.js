@@ -62,7 +62,7 @@ function Login() {
           />
 
           <Link to="/register" className="text-center text-primary underline">
-            Don't have an account? Click to Register.
+            Don't have an account? Click Here to Register.
           </Link>
         </div>
       </div>
