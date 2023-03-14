@@ -38,7 +38,7 @@ function Blog({ blog }) {
     >
 
       <div className="description border-b-4  border-red">
-        <h1 className="text-black text-xl font-bold">{blog.title}</h1>
+        <h1 className="text-black text-2xl font-bold">{blog.title}</h1>
       </div>
       <hr />
       <p className="font-bold desc">{blog.description}</p>
@@ -46,11 +46,16 @@ function Blog({ blog }) {
 
       <div className="flex justify-between items-center">
       
-        <div class="flex items-center space-x-4">
+        <div className="flex items-center space-x-4">
     
-    <div class="font-medium dark:text-white">
+    <div className="font-medium dark:text-white">
         <div>{blog.user.name}</div>
-        <div class="text-sm text-gray-500 dark:text-gray-400">{moment(blog.createdAt).fromNow()}</div>
+        <div className="text-sm text-gray-500 dark:text-gray-400">
+          {moment(blog.createdAt).fromNow()}
+          <br />
+          <br />
+          <a className="read text-red">Read Article</a>
+        </div>
     </div>
 </div>
 
@@ -70,6 +75,7 @@ function Blog({ blog }) {
         </div>
       </div>
     </div>
+    <br />
     </div>
   );
 }

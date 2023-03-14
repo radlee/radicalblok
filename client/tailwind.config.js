@@ -10,7 +10,8 @@ module.exports = {
           secondary: '#ffffff',
           tertiary: '#000',
           header: '#efefef',
-          red: '#fa1313'
+          red: '#fa1313',
+          blue: '#2f82ff'
       }
     },
   },

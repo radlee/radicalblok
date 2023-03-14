@@ -31,7 +31,7 @@ function Profile() {
     },
   ];
   return (
-    <div>
+    <div className="tabs">
       <Tabs tabs={tabs} activeTab={activeTab} setActiveTab={setActiveTab} />
     </div>
   );

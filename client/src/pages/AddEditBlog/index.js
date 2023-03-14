@@ -140,7 +140,7 @@ function AddEditBlog() {
               padding: "10px",
               
             }}
-            handleReturn={this.myHandleReturn}
+
             editorState={blog.content}
             onEditorStateChange={(content) =>
               setBlog({ ...blog, content: content })

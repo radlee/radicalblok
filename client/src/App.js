@@ -6,7 +6,7 @@ import { Toaster } from "react-hot-toast";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { useSelector } from "react-redux";
 import Loader from "./components/Loader";
-import AddEditBlog from "./pages/AddEditBlog";
+import AddEditBlog from "./pages/AddEditBlog/index";
 import BlogDescription from "./pages/BlogDesc";
 import Profile from "./pages/Profile";
 import Notifications from "./pages/Notifications";
