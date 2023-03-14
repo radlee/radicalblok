@@ -122,7 +122,7 @@ function AddEditBlog() {
         />
 
         <div>
-          <p className="text-red"><em>Please upload Images less that 50MB</em></p>
+          <p className="text-red warning"><em>Please upload Images less that 50MB</em></p>
           <br />
           <Editor
             toolbarStyle={{

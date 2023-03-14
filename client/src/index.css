@@ -90,6 +90,10 @@ textarea:focus {
   background: rgb(222, 221, 221);
 }
 
+.warning {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 480px) {
   .paragraph {
     font-size: 20px;
